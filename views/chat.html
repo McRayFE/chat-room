@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>chat-room</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="javascripts/jquery.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="javascripts/chat.js"></script>
+</head>
+<body>
+  <div class="contaniner">
+      <h1>Socket.io - Simple chat room</h1>
+      <div class="onlinepeople">
+      </div>
+      <div id="content"></div>
+      <div class="input">
+        <span id="status">Connecting...</span>
+        <input type="text" id="input" />
+      </div>
+  </div>
+</body>
+</html>
